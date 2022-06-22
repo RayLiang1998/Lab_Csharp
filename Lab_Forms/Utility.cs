@@ -53,4 +53,10 @@ namespace Lab_Forms
         
     }
 
+    public struct Employee
+    {
+        public string Name;
+        public int Age;
+    }
+
 }
