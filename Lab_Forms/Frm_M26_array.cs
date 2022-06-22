@@ -20,7 +20,7 @@ namespace Lab_Forms
         private void btn_esta_arr_Click(object sender, EventArgs e)
         {
             //int[] arr = { 1, 2, 3, 4, 5 };
-            int[] arr = new int[10];
+            int[] arr = new int[10];  
             string result = "";
             for(int i=0; i<10; i+=2)
             {
