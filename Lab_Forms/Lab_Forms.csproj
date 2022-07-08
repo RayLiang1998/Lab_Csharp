@@ -112,6 +112,24 @@
     <Compile Include="Frm_M29.Designer.cs">
       <DependentUpon>Frm_M29.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_M29_GenericArray.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M29_GenericArray.Designer.cs">
+      <DependentUpon>Frm_M29_GenericArray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_M32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M32.Designer.cs">
+      <DependentUpon>Frm_M32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_M34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M34.Designer.cs">
+      <DependentUpon>Frm_M34.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab_M02_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +172,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_M29.resx">
       <DependentUpon>Frm_M29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M29_GenericArray.resx">
+      <DependentUpon>Frm_M29_GenericArray.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M32.resx">
+      <DependentUpon>Frm_M32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M34.resx">
+      <DependentUpon>Frm_M34.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab_M02_Form.resx">
       <DependentUpon>Lab_M02_Form.cs</DependentUpon>

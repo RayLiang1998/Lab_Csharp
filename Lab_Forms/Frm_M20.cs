@@ -136,5 +136,25 @@ namespace Lab_Forms
             }
             MessageBox.Show(result);
         }
+
+        private void btn_foreach_Click(object sender, EventArgs e)
+        {
+            foreach(Control item in Controls)
+            {
+                //if(item.GetType()!= typeof(Button))
+                //{
+                //    continue;
+                //}
+                if(!(item is Button))
+                {
+                    continue;
+                }
+
+                item.Left -= 10;
+                item.Top -= 10;
+                item.BackColor = Color.HotPink;
+                item.ForeColor = Color.Honeydew;
+            }
+        }
     }
 }

@@ -39,6 +39,7 @@ namespace Lab_Forms
             this.btn_while = new System.Windows.Forms.Button();
             this.btn_do = new System.Windows.Forms.Button();
             this.btn_for = new System.Windows.Forms.Button();
+            this.btn_foreach = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_conv
@@ -137,11 +138,22 @@ namespace Lab_Forms
             this.btn_for.UseVisualStyleBackColor = true;
             this.btn_for.Click += new System.EventHandler(this.btn_for_Click);
             // 
+            // btn_foreach
+            // 
+            this.btn_foreach.Location = new System.Drawing.Point(616, 259);
+            this.btn_foreach.Name = "btn_foreach";
+            this.btn_foreach.Size = new System.Drawing.Size(140, 65);
+            this.btn_foreach.TabIndex = 10;
+            this.btn_foreach.Text = "Foreach";
+            this.btn_foreach.UseVisualStyleBackColor = true;
+            this.btn_foreach.Click += new System.EventHandler(this.btn_foreach_Click);
+            // 
             // Frm_M20
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_foreach);
             this.Controls.Add(this.btn_for);
             this.Controls.Add(this.btn_do);
             this.Controls.Add(this.btn_while);
@@ -171,5 +183,6 @@ namespace Lab_Forms
         private System.Windows.Forms.Button btn_while;
         private System.Windows.Forms.Button btn_do;
         private System.Windows.Forms.Button btn_for;
+        private System.Windows.Forms.Button btn_foreach;
     }
 }
